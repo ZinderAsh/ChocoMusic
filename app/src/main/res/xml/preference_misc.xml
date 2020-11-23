@@ -39,7 +39,7 @@ THE SOFTWARE.
 		android:title="@string/use_idle_timeout_title"
 		android:summary="@string/use_idle_timeout_summary"
 		android:defaultValue="false" />
-	<ch.blinkenlights.android.vanilla.IdlePreference
+	<ch.blinkenlights.android.chocolate.IdlePreference
 		android:key="idle_timeout"
 		android:title="@string/idle_timeout_title"
 		android:dialogLayout="@layout/seekbar_pref"

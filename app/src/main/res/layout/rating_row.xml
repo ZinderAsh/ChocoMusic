@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<View
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+
+	<ImageButton
+		android:id="@+id/rating1"
+		android:background="@android:color/transparent"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:src="@drawable/btn_rating_star_off_mtrl_alpha"/>
+
+	<ImageButton
+		android:id="@+id/rating2"
+		android:background="@android:color/transparent"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:src="@drawable/btn_rating_star_off_mtrl_alpha"/>
+
+	<ImageButton
+		android:id="@+id/rating3"
+		android:background="@android:color/transparent"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:src="@drawable/btn_rating_star_off_mtrl_alpha"/>
+
+	<ImageButton
+		android:id="@+id/rating4"
+		android:background="@android:color/transparent"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:src="@drawable/btn_rating_star_off_mtrl_alpha"/>
+
+	<ImageButton
+		android:id="@+id/rating5"
+		android:background="@android:color/transparent"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:src="@drawable/btn_rating_star_off_mtrl_alpha"/>
+
+	<View
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_weight="1"/>
+
+</LinearLayout>

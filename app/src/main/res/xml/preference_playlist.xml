@@ -24,7 +24,7 @@ THE SOFTWARE.
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:vanilla="http://schemas.android.com/apk/res-auto"
 	android:persistent="true">
-	<ch.blinkenlights.android.vanilla.SeekBarPreference
+	<ch.blinkenlights.android.chocolate.SeekBarPreference
 		android:key="playcounts_autoplaylist"
 		android:negativeButtonText="@null"
 		android:dialogLayout="@layout/seekbar_pref"
@@ -35,7 +35,7 @@ THE SOFTWARE.
 		vanilla:sbpSummaryText="@string/autoplaylist_playcounts_summary"
 		vanilla:sbpSummaryFormat="@string/autoplaylist_playcounts_fmt"
 		vanilla:sbpSummaryZeroText="@string/autoplaylist_playcounts_disabled"/>
-	<ch.blinkenlights.android.vanilla.ListPreferenceSummary
+	<ch.blinkenlights.android.chocolate.ListPreferenceSummary
 		android:key="playlist_sync_mode"
 		android:title="@string/playlist_sync_mode_title"
 		android:entries="@array/playlist_sync_mode_entries"

@@ -9,7 +9,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "ch.blinkenlights.android.vanilla"
+        applicationId "ch.blinkenlights.android.chocolate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
@@ -17,8 +17,8 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            useProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            //useProguard false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
 

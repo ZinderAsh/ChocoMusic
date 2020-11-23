@@ -78,6 +78,20 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 			android:layout_gravity="end"
 			android:text="@string/media_scan_start">
 		</Button>
+		<Button
+			android:id="@+id/clean_library"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:text="@string/media_clean_library">
+		</Button>
+		<Button
+			android:id="@+id/favorites_button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="end"
+			android:text="@string/media_scan_refresh_favorites">
+		</Button>
 
 		<TextView
 			style="?android:attr/listSeparatorTextViewStyle"

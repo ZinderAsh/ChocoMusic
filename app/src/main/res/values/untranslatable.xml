@@ -157,17 +157,16 @@ THE SOFTWARE.
 		<item>@string/info_below_cover</item>
 		<item>@string/fixed_info</item>
 	</string-array>
-
-
-	<!-- START folder_picker_spinner -->
-        <string-array name="folder_picker_spinner_entries">
-                <item>@string/folder_include</item>
-                <item>@string/folder_exclude</item>
-                <item>@string/folder_neutral</item>
-        </string-array>
-	<!-- END folder_picker_spinner -->
+	<string-array name="change_vocal_array">
+		<item>@string/vocal</item>
+		<item>@string/instrumental</item>
+		<item>@string/cancel</item>
+	</string-array>
 
 	<string name="empty"></string>
+	<string name="song_rating">%d☆</string>
+	<string name="album_size">%d♫</string>
+	<string name="album_size_rating">%.01f☆ %d♫</string>
 
 
 </resources>

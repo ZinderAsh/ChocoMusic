@@ -51,7 +51,7 @@ THE SOFTWARE.
 				android:layout_height="fill_parent" />
 		</HorizontalScrollView>
 	</LinearLayout>
-	<ch.blinkenlights.android.vanilla.SlidingView
+	<ch.blinkenlights.android.chocolate.SlidingView
 		android:id="@+id/sliding_view"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
@@ -71,8 +71,8 @@ THE SOFTWARE.
 
 			<include layout="@layout/controls" />
 
-			<fragment class="ch.blinkenlights.android.vanilla.ShowQueueFragment"
+			<fragment class="ch.blinkenlights.android.chocolate.ShowQueueFragment"
 				android:id="@+id/queue"
 				android:layout_width="fill_parent" android:layout_height="fill_parent" />
-	</ch.blinkenlights.android.vanilla.SlidingView>
+	</ch.blinkenlights.android.chocolate.SlidingView>
 </merge>

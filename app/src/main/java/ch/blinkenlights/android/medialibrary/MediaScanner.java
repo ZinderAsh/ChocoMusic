@@ -17,13 +17,12 @@
 
 package ch.blinkenlights.android.medialibrary;
 
-import ch.blinkenlights.android.vanilla.R;
-import ch.blinkenlights.android.vanilla.NotificationHelper;
+import ch.blinkenlights.android.chocolate.R;
+import ch.blinkenlights.android.chocolate.NotificationHelper;
 
 import android.app.Notification;
 import android.content.Context;
 import android.content.ContentValues;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.ContentObserver;
 import android.util.Log;

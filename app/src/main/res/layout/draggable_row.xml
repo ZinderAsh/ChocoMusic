@@ -15,7 +15,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>. 
 -->
-<ch.blinkenlights.android.vanilla.DraggableRow
+<ch.blinkenlights.android.chocolate.DraggableRow
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
@@ -28,7 +28,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 		android:layout_height="@dimen/row_normal_height"
 		android:background="?now_playing_marker" />
 
-	<ch.blinkenlights.android.vanilla.LazyCoverView
+	<ch.blinkenlights.android.chocolate.LazyCoverView
 		android:id="@+id/cover"
 		android:scaleType="centerCrop"
 		android:layout_width="@dimen/cover_size"
@@ -45,14 +45,29 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 		android:layout_height="@dimen/row_normal_height"
 		android:layout_marginLeft="@dimen/text_padding"
 		android:layout_weight="1" />
-	<TextView
-		android:id="@+id/duration"
+	<LinearLayout
 		android:layout_width="wrap_content"
 		android:layout_height="match_parent"
-		android:layout_marginLeft="@dimen/text_padding"
-		android:visibility="gone"
-		android:textColor="?android:textColorPrimary"
-		android:gravity="center_vertical" />
+		android:orientation="vertical"
+		android:gravity="right|center_vertical">
+		<TextView
+			android:id="@+id/rating"
+			android:textSize="16sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/text_padding"
+			android:visibility="invisible"
+			android:textColor="?android:textColorPrimary"
+			android:gravity="center_vertical"/>
+		<TextView
+			android:id="@+id/duration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="@dimen/text_padding"
+			android:visibility="gone"
+			android:textColor="?android:textColorPrimary"
+			android:gravity="center_vertical" />
+	</LinearLayout>
 	<CheckedTextView
 		android:id="@+id/checkbox"
 		android:visibility="gone"
@@ -76,4 +91,4 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 		android:scaleType="center"
 		android:layout_width="@dimen/row_normal_height"
 		android:layout_height="@dimen/row_normal_height" />
-</ch.blinkenlights.android.vanilla.DraggableRow>
+</ch.blinkenlights.android.chocolate.DraggableRow>

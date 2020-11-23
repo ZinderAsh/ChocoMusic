@@ -169,8 +169,6 @@ public class MediaLibrary  {
 			for (File file : context.getExternalMediaDirs()) {
 				defaultPaths.add(file.getAbsolutePath());
 			}
-			// but for now, we also add the default SD directory.
-			defaultPaths.add(Environment.getExternalStorageDirectory().getAbsolutePath());
 		} else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 			// Try to discover media paths using getExternalMediaDirs() on 5.x and newer
 			for (File file : context.getExternalMediaDirs()) {

@@ -22,12 +22,10 @@ THE SOFTWARE.
 -->
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
        xmlns:vanilla="http://schemas.android.com/apk/res-auto" >
-  <ch.blinkenlights.android.vanilla.CoverView
-      android:id="@+id/cover_view"
-      android:layout_marginTop="@dimen/full_playback_alt_text"
-      android:layout_marginBottom="@dimen/full_playback_controls_height"
-      android:layout_height="fill_parent"
-      android:layout_width="fill_parent" />
+	<ch.blinkenlights.android.chocolate.CoverView
+		android:id="@+id/cover_view"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent" />
 	<TableLayout
 		android:id="@+id/info_table"
 		android:layout_width="fill_parent"
@@ -53,12 +51,12 @@ THE SOFTWARE.
 	</TableLayout>
 
 
-	<ch.blinkenlights.android.vanilla.SlidingView
+	<ch.blinkenlights.android.chocolate.SlidingView
 		android:id="@+id/sliding_view"
 		android:layout_height="fill_parent"
 		android:layout_width="fill_parent"
 		android:layout_gravity="bottom|left"
-		android:layout_marginTop="@dimen/full_playback_alt_text"
+		android:layout_marginTop="56dip"
 		android:orientation="horizontal"
 		vanilla:slider_handle_id="@+id/queue_slider">
 
@@ -68,15 +66,16 @@ THE SOFTWARE.
 				android:background="?overlay_background_color"
 				android:elevation="2dp"
 				android:orientation="vertical">
+					<include layout="@layout/rating_row" android:id="@+id/rating_bar"/>
 					<include layout="@layout/seek_bar" />
 					<include layout="@layout/controls" android:id="@+id/queue_slider" />
 			</LinearLayout>
 
-			<fragment class="ch.blinkenlights.android.vanilla.ShowQueueFragment"
+			<fragment class="ch.blinkenlights.android.chocolate.ShowQueueFragment"
 				android:id="@+id/queue"
 				android:layout_width="fill_parent"
 				android:layout_height="fill_parent" />
-	</ch.blinkenlights.android.vanilla.SlidingView>
+	</ch.blinkenlights.android.chocolate.SlidingView>
 
 
 </merge>

@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <resources>
-	<string name="app_name">Vanilla Music</string>
+	<string name="app_name">Choco Music</string>
 	<string name="ok">OK</string>
 	<string name="cancel">Cancel</string>
 
@@ -33,6 +33,7 @@ THE SOFTWARE.
 	<string name="shuffle_songs">Shuffle tracks</string>
 	<string name="shuffle_songs_continuously">Shuffle tracks continuously</string>
 	<string name="shuffle_albums">Shuffle albums</string>
+	<string name="shuffle_smart">Shuffle ratings</string>
 	<string name="no_repeat">No repeat</string>
 	<string name="repeat">Repeat</string>
 	<string name="repeat_current_song">Repeat current track</string>
@@ -69,12 +70,15 @@ THE SOFTWARE.
 	<string name="save_as_playlist">Save as playlist…</string>
 	<string name="add_to_playlist">Add to playlist…</string>
 	<string name="add_to_homescreen">Add to homescreen…</string>
+	<string name="set_all_vocal">Change vocal type…</string>
 	<string name="add_to">Add to…</string>
 	<string name="playlist">Playlist</string>
 	<string name="homescreen">Homescreen</string>
 	<string name="add_to_favorites">Add to favorites</string>
 	<string name="remove_from_favorites">Remove from favorites</string>
-	<string name="playlist_favorites">Favorites</string>
+	<string name="playlist_favorites">Favorites (4+)</string>
+	<string name="playlist_best_of_the_best">Best of the Best (5+)</string>
+	<string name="playlist_favorites_ex">Sound Selection (3+)</string>
 	<string name="new_playlist">New playlist…</string>
 	<string name="expand">Expand</string>
 	<string name="expand_or_play_all">Expand or play all</string>
@@ -88,6 +92,8 @@ THE SOFTWARE.
 	<string name="open">Open</string>
 	<string name="go_home">Home directory</string>
 	<string name="jumping_to_song">Song is already in queue, jumping…</string>
+	<string name="change_type">Change Type</string>
+	<string name="filter">Song Filter</string>
 
 	<!--
 		As a developer, you should always supply "one" and "other"
@@ -205,7 +211,7 @@ THE SOFTWARE.
 	<string name="replaygain_untagged_debump_title">Tracks without ReplayGain tag</string>
 	<string name="replaygain_untagged_debump_summary">Decrease volume by</string>
 	<string name="replaygain_preamp_note_title">Note</string>
-	<string name="replaygain_preamp_note_content">Android does not allow Vanilla Music to raise the volume to >100%. Setting the Pre-amp to a high value may cause issues if you are listening to \'quiet\' music. \n\nRecommended values are:\n-> -3dB for silent/classical music\n-> +3dB for post-2000 recordings</string>
+	<string name="replaygain_preamp_note_content">Android does not allow Choco Music to raise the volume to >100%. Setting the Pre-amp to a high value may cause issues if you are listening to \'quiet\' music. \n\nRecommended values are:\n-> -3dB for silent/classical music\n-> +3dB for post-2000 recordings</string>
 
 	<string name="readahead">Enable readahead</string>
 	<string name="readahead_summary">Readahead the currently playing track. This option may solve \'audio dropout\' issues. (caused by a slow SD card)</string>
@@ -246,7 +252,7 @@ THE SOFTWARE.
 	<string name="disable_lockscreen_title">Disable lockscreen</string>
 	<string name="disable_lockscreen_summary">Prevent the lockscreen from activating when in the library or playback screen</string>
 	<string name="keep_screen_on_title">Keep screen on</string>
-	<string name="keep_screen_on_summary">Keep the screen (and device) awake while Vanilla Music is visible</string>
+	<string name="keep_screen_on_summary">Keep the screen (and device) awake while Choco Music is visible</string>
 	<string name="use_idle_timeout_title">Enable idle timeout</string>
 	<string name="use_idle_timeout_summary">When active, playback will be stopped after the given period of inactivity</string>
 	<string name="idle_timeout_title">Idle timeout</string>
@@ -305,6 +311,9 @@ THE SOFTWARE.
 	<string name="info_below_cover">Info below cover art</string>
 	<string name="fixed_info">Info fixed at top</string>
 
+	<string name="vocal">Vocals</string>
+	<string name="instrumental">Instrumental</string>
+
 	<string name="do_nothing">Do nothing</string>
 	<string name="open_library">Open library</string>
 	<string name="play_pause">Play/Pause</string>
@@ -361,7 +370,7 @@ THE SOFTWARE.
 	<string name="playlist_export_relative_paths_title">Export using relative paths</string>
 	<string name="playlist_export_relative_paths_summary">Reference file paths relative to the playlist</string>
 
-	<string name="permission_request_summary">Vanilla Music needs read permission to display your music library</string>
+	<string name="permission_request_summary">Choco Music needs read permission to display your music library</string>
 	<string name="reverse_sort">Reverse sort</string>
 
 	<string name="share">Share…</string>
@@ -379,6 +388,8 @@ THE SOFTWARE.
 	<string name="media_scan_full">Scan full filesystem (slower)</string>
 	<string name="media_scan_drop_db">Flush media database</string>
 	<string name="media_scan_start">Start scan</string>
+	<string name="media_scan_refresh_favorites">Refresh Favorites</string>
+	<string name="media_clean_library">Clean library</string>
 	<string name="media_scan_force_bastp">Always use built-in tag reader</string>
 	<string name="media_scan_group_albums">Group albums by folder</string>
 	<string name="media_statistics">Statistics</string>
@@ -390,7 +401,6 @@ THE SOFTWARE.
 	<string name="media_scan_preferences">Scanner options</string>
 	<string name="media_scan_preferences_change_title">Scanner options changed</string>
 	<string name="media_scan_preferences_change_message">Changing this option will start a full rescan of your library. Would you like to continue?</string>
-	<string name="folder_picker_spinner_desc">Status of Directory:</string>
 
 	<!-- Folder selector -->
 	<string name="hint_long_press_to_modify_folder">Long press to modify folder options</string>

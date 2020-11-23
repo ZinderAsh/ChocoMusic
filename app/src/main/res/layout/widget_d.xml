@@ -20,17 +20,82 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
+
 <FrameLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/bg"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#36474f"
+		android:orientation="vertical"
+		android:gravity="center"/>
+
 	<ImageView
 		android:id="@+id/cover"
 		android:src="@drawable/fallback_cover_large"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
 		android:adjustViewBounds="true"
 		android:scaleType="fitCenter"
+		android:layout_gravity="center"
 		android:contentDescription="@string/cover_art" />
-	<include layout="@layout/widget_e" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:background="#6000"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:id="@+id/title"
+				android:textSize="12sp"
+				android:textColor="#ffff"
+				android:textStyle="bold"
+				android:maxLines="2"
+				android:paddingLeft="6dp"
+				android:paddingRight="6dp"
+				android:ellipsize="marquee"
+				android:gravity="center"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="4"
+				android:visibility="invisible"/>
+
+			<ImageView
+				android:id="@+id/filter"
+				android:padding="6dp"
+				android:layout_gravity="top|right"
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:adjustViewBounds="true"
+				android:src="@drawable/filter_off"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="1dp"
+			android:layout_height="0dp"
+			android:layout_weight="1"/>
+
+		<LinearLayout
+			android:id="@+id/buttons"
+			android:background="#6000"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<include layout="@layout/controls_widget" />
+		</LinearLayout>
+
+	</LinearLayout>
+
 </FrameLayout>

@@ -1,7 +1,5 @@
-Choco Music
+Vanilla Music
 =====================
-
-Choco Music is a fork of Vanilla Music, primarily for personal use, so some bugs might be present.
 
 Vanilla Music player is a [GPLv3](LICENSE) licensed MP3/OGG/FLAC/PCM player for Android with the following features:
 * multiple playlist support
@@ -12,13 +10,10 @@ Vanilla Music player is a [GPLv3](LICENSE) licensed MP3/OGG/FLAC/PCM player for 
 * accelerometer/shake control
 * cover art support
 * [Simple Last.fm Scrobbler](https://github.com/tgwizard/sls) support
-	 
-Choco Music adds the following features:
-* The ability to rate your music locally from 1 to 5 stars.
-* Cleaning up your library of songs you don't listen too (deletes files for all songs that are rated 1 star).
-* The ability to tag songs and albums as being instrumentals or songs with vocals.
-* A filtering feature on playback to only play songs that are either instrumentals or vocal songs.
-* A Smart Shuffle feature that will shuffle a playlist and slightly prioritize highly rated songs over lower ones, to mainly listen to your favorite songs, while occasionally spicing it up with some less common songs.
+
+[<img src="https://f-droid.org/badge/get-it-on.png"
+      alt="Get it on F-Droid"
+      height="80">](https://f-droid.org/app/ch.blinkenlights.android.vanilla)
 
 Plugins
 ===========
@@ -29,6 +24,31 @@ Vanilla Music also includes support for plugins, this is a list of some existing
 * [Tag editor](https://play.google.com/store/apps/details?id=com.kanedias.vanilla.audiotag)
 * [Headphone detector](https://play.google.com/store/apps/details?id=ch.blinkenlights.android.vanillaplug)
 
+
+Donations
+===========
+You can donate to Vanilla Musics development via Bitcoin
+
+Bitcoin: [1adrianERDJusC4c8whyT81zAuiENEqub](https://blockchain.info/address/1adrianERDJusC4c8whyT81zAuiENEqub)
+
+
+Community
+===========
+Come over and join us on our subreddit [**/r/VanillaMusic**](https://www.reddit.com/r/vanillamusic) to hangout with fellow Vanilla Music users, ask questions, or help others by answering their questions!
+
+Contributing
+===========
+
+Translating
+-----------
+[You can help translate here][1]. If your language isn't on the list, sign in to transifex and request the language to be added to the list of translations.
+(Feel free to open a bug if your request was not approved within a few days - i don't look into transifex that often.)
+
+Contributing code
+---------------
+* A list of open issues can be found at the [issue tracker][2]
+* Features we would like to see (but nobody started working on them yet) have the [patches-welcome][3] label attached to them. Please let us know if you start working on such an open issue (to avoid duplicate work)
+* We accept raw patches and github pull request - and we use tabs (if your editor understands .editorconfig, it will help you enforce this).
 
 Building
 ========
@@ -46,6 +66,16 @@ Building from command-line
 Building with Android Studio
 ---------------------
 You can also build with Android Studio by importing this project into it.
+
+Building from Eclipse
+---------------------
+You can also build from Eclipse. Create a new Android Project, choosing "Create
+project from exisiting source", then set the compiler compliance level to 1.6
+in project settings.
+
+Nightly Builds
+---------------------
+Automatically created builds are available from http://android.eqmx.net/android/vanilla/VanillaMusic-nightly.apk
 
 Documentation
 =============
