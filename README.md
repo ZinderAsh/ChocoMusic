@@ -12,12 +12,8 @@ Vanilla Music player is a [GPLv3](LICENSE) licensed MP3/OGG/FLAC/PCM player for 
 * accelerometer/shake control
 * cover art support
 * [Simple Last.fm Scrobbler](https://github.com/tgwizard/sls) support
-
-[<img src="https://f-droid.org/badge/get-it-on.png"
-      alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/app/ch.blinkenlights.android.vanilla)
 	 
-Choco Music add these features:
+Choco Music adds the following features:
 * The ability to rate your music locally from 1 to 5 stars.
 * The ability to tag songs and albums as being instrumentals or songs with vocals.
 * A filtering feature on playback to only play songs that are either instrumentals or vocal songs.
