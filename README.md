@@ -15,6 +15,7 @@ Vanilla Music player is a [GPLv3](LICENSE) licensed MP3/OGG/FLAC/PCM player for 
 	 
 Choco Music adds the following features:
 * The ability to rate your music locally from 1 to 5 stars.
+* Cleaning up your library of songs you don't listen too (deletes files for all songs that are rated 1 star).
 * The ability to tag songs and albums as being instrumentals or songs with vocals.
 * A filtering feature on playback to only play songs that are either instrumentals or vocal songs.
 * A Smart Shuffle feature that will shuffle a playlist and slightly prioritize highly rated songs over lower ones, to mainly listen to your favorite songs, while occasionally spicing it up with some less common songs.
